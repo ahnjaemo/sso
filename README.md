@@ -1,6 +1,6 @@
 # Python FastAPI 인증 서비스
 
-이 프로젝트는 Python FastAPI를 사용하여 구현된 현대적인 사용자 인증 API 서비스입니다. 표준 이메일/비밀번호 기반 인증과 Google 소셜 로그인을 모두 지원합니다.
+이 프로젝트는 VIBE CODE Python FastAPI를 사용하여 구현된 현대적인 사용자 인증 API 서비스입니다. 표준 이메일/비밀번호 기반 인증과 Google 소셜 로그인을 모두 지원합니다.
 
 ## 주요 기능
 
