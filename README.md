@@ -93,6 +93,8 @@ uvicorn src.main:app --reload
 
 웹 브라우저에서 `http://localhost:8000/docs`로 접속하여 대화형 API 문서를 확인하고 모든 엔드포인트를 직접 테스트할 수 있습니다.
 
+![Swagger UI Screenshot](screenshot.png)
+
 1.  **회원가입 (`POST /auth/register`):**
     *   `email`, `password`, `full_name`을 JSON 형식으로 입력하여 새 사용자를 등록합니다.
 

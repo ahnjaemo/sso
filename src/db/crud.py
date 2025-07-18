@@ -1,7 +1,7 @@
 from sqlalchemy.future import select
 from sqlalchemy.ext.asyncio import AsyncSession
 from . import models
-from schemas.schemas import UserCreate, UserResponse
+from ..schemas.schemas import UserCreate, UserResponse
 from passlib.context import CryptContext
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")

@@ -7,11 +7,11 @@ from starlette.requests import Request
 from typing import List
 # from google_auth_oauthlib.flow import Flow
 
-from api import auth
-from db import crud, models
-from db.database import get_db, engine
-from schemas.schemas import UserCreate, UserResponse, Token
-from core import config
+from .api import auth
+from .db import crud, models
+from .db.database import get_db, engine
+from .schemas.schemas import UserCreate, UserResponse, Token
+from .core import config
 
 app = FastAPI(openapi_extra={
     "components": {
